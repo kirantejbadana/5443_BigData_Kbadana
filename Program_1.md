@@ -1,6 +1,6 @@
 ##Converting XML to JSON##
 
-I believe size of the file is not the only thing that bothers for reading the data but also how well the file is been organized. I believe, form the file formats provided XML is one which provides the data in much more organized way and we have been provided with lot of options for reading the data from the XML by Microsoft.
+As per my understanding size of the file is not the only thing that bothers for reading the data but also how well the file is been organized. I believe, form the file formats provided XML is one which provides the data in much more organized way and we have been provided with lot of options for reading the data from the XML by Microsoft.
 <ol>
 <li> XmlTextReader </li>
 <li> XmlDocument </li>
