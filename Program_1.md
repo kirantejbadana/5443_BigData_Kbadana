@@ -27,7 +27,7 @@ Before making the conversion I will use the XSD file to check if the XML file is
 
 Compressing the files made the file size reduce
 
-58M Sep 10 10:36 GpsFilePoints.csv <br>
+484M Sep 10 10:36 GpsFilePoints.csv <br>
 58M Sep 11 09:20 GpsFilePoints.csv.gz <br>
 58M Sep 11 08:53 GpsFilePoints.csv.zip <br>
 467M Sep 10 10:39 GpsFilePoints.sql <br>
@@ -41,9 +41,9 @@ Compressing the files made the file size reduce
 61M Sep 11 08:59 GpsFilePoints.yml.zip <br>
 
 
-| Type | Description                                  | Size    | After Compression   |
-|------|----------------------------------------------|---------|---------------------|
-| csv  |Comma seperated values                        | 484MB   |   58M               |
-| sql  |Structured Query Language (insert statements) | 467MB   |   60M               |
-| xml  |EXtensible Markup Language                    | 2.3GB   |   75M               |
-| yaml |Yet Another Markup Language                   | 771MB   |   61M               |
+| Type | Description                                  | Size    |Compressed size|   %   |
+|------|----------------------------------------------|---------|---------------|------:|
+| csv  |Comma seperated values                        | 484MB   |     59MB      | 87.8  |
+| sql  |Structured Query Language (insert statements) | 467MB   |     60MB      | 87.1  |
+| xml  |EXtensible Markup Language                    | 2.3GB   |     75MB      | 96.7  |
+| yaml |Yet Another Markup Language                   | 771MB   |     61MB      | 92.0  |
