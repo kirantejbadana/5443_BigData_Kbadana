@@ -23,3 +23,20 @@ After converting each line I will send this to the JSON file for getting the JSO
 
 Before making the conversion I will use the XSD file to check if the XML file is well formatted or not. I will parse the XML using the pre defined parsed present in the Visual Studio
 
+###Coompressing the files###
+
+Compressing the files made the file size reduce
+
+58M Sep 10 10:36 GpsFilePoints.csv
+58M Sep 11 09:20 GpsFilePoints.csv.gz
+58M Sep 11 08:53 GpsFilePoints.csv.zip
+467M Sep 10 10:39 GpsFilePoints.sql
+60M Sep 11 09:21 GpsFilePoints.sql.gz
+60M Sep 11 08:57 GpsFilePoints.sql.zip
+2.3G Sep  2 18:24 GpsFilePoints.xml
+75M Sep 11 09:22 GpsFilePoints.xml.gz
+75M Sep 11 08:55 GpsFilePoints.xml.zip
+771M Sep  2 19:09 GpsFilePoints.yml
+61M Sep 11 09:23 GpsFilePoints.yml.gz
+61M Sep 11 08:59 GpsFilePoints.yml.zip
+
