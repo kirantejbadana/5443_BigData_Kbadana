@@ -41,3 +41,9 @@ Compressing the files made the file size reduce
 61M Sep 11 08:59 GpsFilePoints.yml.zip <br>
 
 
+| Type | Description                                  | Size    | After Compression   |
+|------|----------------------------------------------|---------|---------------------|
+| csv  |Comma seperated values                        | 484MB   |   58M               |
+| sql  |Structured Query Language (insert statements) | 467MB   |   60M               |
+| xml  |EXtensible Markup Language                    | 2.3GB   |   75M               |
+| yaml |Yet Another Markup Language                   | 771MB   |   61M               |
