@@ -39,4 +39,6 @@ Sudo vi /etc/hosts
 
 2. Can everyone in class add the remaining members of the class to thier cluster?
 
+Yes every one in the class can add every other person in the class as a cluster by following the above steps by acting as a master. And every other person in the class must act as slave.
+
 
