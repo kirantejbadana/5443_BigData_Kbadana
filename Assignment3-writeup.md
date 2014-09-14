@@ -22,6 +22,11 @@ dns-nameserver
 
 Go to the host name file present in /etc/hostname
 <br>
+```
 vi /etc/hostname
-
-
+```
+Give the name as Slave01
+Re-start the machine by typint the command
+```
+Sudo shutdown -r now
+```
