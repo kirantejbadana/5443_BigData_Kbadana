@@ -30,3 +30,13 @@ Re-start the machine by typint the command
 ```
 Sudo shutdown -r now
 ```
+Go to the master system and edit the host file by typing the below commands
+
+```
+Sudo vi /etc/hosts
+```
+<IP Address> Slave01
+
+2. Can everyone in class add the remaining members of the class to thier cluster?
+
+
