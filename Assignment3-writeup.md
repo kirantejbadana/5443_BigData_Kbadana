@@ -52,5 +52,4 @@ Yes every one in the class can add every other person in the class as a cluster 
 
 Yes, every one can simulataniously run the zhadoop cluster but while acting as slave and if one of the slave is asked to do a job which uses all the mapreduce then it the next job in the queue is kept waiting.
 
-
-
+There is a option such that we will perform a simultanious distribution of mapreduce to handle multiple jobs simultaniously.
