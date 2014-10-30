@@ -8,4 +8,3 @@
 I have extracted the nutriion value as a JSON fmormated value and I have decoded the same and extracted the count of the number of times the food items repetetions by pushing the value in the set and I have pushed the ID of each of the line inbto the set and I have devided with this value to get the value cof the zavarage number of the repetetions.
 
 5. I have stored all the values in the set into the MyList13 as requested in the assignment. I have pushed nutrition values into MyHash9. I have pushed the nutrition tag name into the TagNameSet hash table. I have inserted the value of the Id into the MainColl and corresponsiding nutritions as a comma seperated values. i have extracted these values using split function as in an array, I have pushed the value into the list of TagNameSet and get the related information based on the relation.
-6. 
