@@ -66,4 +66,5 @@ Ans) Each Node in the Hadoop cluster will considered as a Name Node or a Data No
 Right Now the memory available is 512 MG which is not sufficient to store huge amount of data.
 
 The code will fetch large amount of data from different data Nodes and digital Ocean provides a restriction of 1000 GB on transfer of data
+
 If All the multi threads of Hadoop are been used by a single Node then rest of the clusters would be waiting in the network to complete the task.
