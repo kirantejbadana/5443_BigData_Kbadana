@@ -4,4 +4,4 @@
 
 3. I have used sorted hash table for performing this operation. This operation is used to add the value in the hash table which will add the unique values into the hash set and zincrby is used to increment the number of times the values is been pushed into the hash table and this is auto sorted in the desecnding order. I have extracted the first five elements from the sorted ascending order elements by using the command Zrange function which will give the first few of the elements with the maximum values.
 
-4.  
+4.  I have performed the avarage how many number of times the food product have repeated. In the numarator the value of the description is been repeated in the nutriion and in the denominator hoe many food items are present in the JSON file. 
