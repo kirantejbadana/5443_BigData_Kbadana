@@ -1,5 +1,5 @@
 ###Assignment 3###
-![Command prompt](http://198.199.95.27/Hadoop.png)
+![Command prompt](http://198.199.104.78/~kbadana/Hadoop.png)
 
 Q. How do you add nodes to your Hadoop cluster?
 <br>Ans. Firstly all the systems needs to be present in the network. <br>

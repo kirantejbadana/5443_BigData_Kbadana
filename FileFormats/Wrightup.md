@@ -34,3 +34,12 @@ Compressing the files made the file size reduce
 | sql  |Structured Query Language (insert statements) | 467MB   |     60MB      | 87.1  |
 | xml  |EXtensible Markup Language                    | 2.3GB   |     75MB      | 96.7  |
 | yaml |Yet Another Markup Language                   | 771MB   |     61MB      | 92.0  |
+
+I have written the code to convert the CSV file to JSON file and the code was not running on the Digital Ocean server and when I run the program it says the process is killed and when I have run the same code in the cs2 server I was able to run the code with out any errors and below is the table indicating the size of the CSV file as well as the JSON file.
+
+|File Size | File Name|
+|----------|-------------------|
+|484M      | GpsFilePoints.csv |
+|531M      | Output.json       |
+
+
