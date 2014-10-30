@@ -54,3 +54,15 @@ Q. Can everyone simultaneously run thier own Hadoop cluster, AND be a slave (wor
 Yes, every one can simulataniously run the zhadoop cluster but while acting as slave and if one of the slave is asked to do a job which uses all the mapreduce then it the next job in the queue is kept waiting.
 
 There is a option such that we will perform a simultanious distribution of mapreduce to handle multiple jobs simultaniously.
+
+
+Q. Our digital ocean servers only have 512MB of Ram. Can you speculate WHY Hadoop cannot run on a server with such minimal resources? Here are some areas to think about:
+Large amount of object code needing to reside in memory?
+Large amount of threads hogging resources?
+The Hadoop file system requires a lot of memory? (Not disk space, but ram).
+
+Ans) Each Node in the Hadoop cluster will considered as a Name Node or a Data Node. Usually Data Node is a place where the data will be stored in HDFS (Jadoop Distributed File Systems) and some times Name Node will also Have Data. 
+
+Right Now the memory available is 512 MG which is not sufficient to store huge amount of data.
+
+The code will fetch large amount of data from different data Nodes and digital Ocean provides a restriction of 1000 GB on transfer of data
